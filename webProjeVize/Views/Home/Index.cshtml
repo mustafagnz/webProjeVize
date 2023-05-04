@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <div>
+                <div class="merhaba">
+                    <h1>Merhaba</h1>
+
+                </div>
+                <div class="alttitle">
+                    <p>Ben Kimim ? Ne yapıyorum ? </p>
+                    <br>
+                    <p style="margin-left:170px; font-family: 'Montserrat', 'sans-serif';">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Corporis, consequuntur!</p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="alan">
+            <img src="https://drive.google.com/file/d/1GJ3sEM9_zPIXMvGbOE-vyXnwm77HpbzU/view?usp=sharing" />
+            <p id="isim">MUSTAFA <br> GÜNDÜZ</p>
+            <p id="title">BİLGİSAYAR MÜHENDİSİ</p>
+        </div>
+
+
+    </div>
+
+
+    <nav>
+        <div class="name">
+            <a style="font-size: 20px;"> MUSTAFA GÜNDÜZ </a>
+            <a style=" font-size: 20px; font-family: 'Montserrat', 'sans-serif';"> / BİLGİSAYAR MÜHENDİSİ </a>
+        </div>
+        <ul class="menu">
+            <li><a href="@Url.Action("Index","Home")">Ana Sayfa</a></li>
+            <li><a href="@Url.Action("cv","Home")">CV</a></li>
+            <li><a href="@Url.Action("iletisim","Home")">İLETİŞİM</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <footer>
+        <p>© 2023 WEB PROJESİ</p>
+    </footer>
+
+
+
+</body>
+</html>
